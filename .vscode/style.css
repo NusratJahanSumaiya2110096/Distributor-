@@ -1,0 +1,95 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: #f3f4f6; /* Light gray background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  width: 100%;
+  max-width: 480px;
+  box-sizing: border-box;
+}
+
+.card-header {
+  margin-bottom: 24px;
+}
+
+.card-title {
+  font-size: 1.875rem; /* 30px */
+  font-weight: 700; /* bold */
+  color: #1f2937; /* Dark gray */
+  margin-bottom: 8px;
+}
+
+.card-description {
+  font-size: 1rem; /* 16px */
+  color: #6b7280; /* Medium gray */
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 0.875rem; /* 14px */
+  font-weight: 500; /* medium */
+  color: #374151; /* Slightly darker gray */
+  margin-bottom: 8px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="date"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db; /* Light border */
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #1f2937;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="number"]:focus,
+.form-group input[type="date"]:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #2563eb; /* Blue focus border */
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2); /* Blue focus shadow */
+}
+
+.form-group textarea {
+  resize: vertical; /* Allow vertical resizing */
+  min-height: 80px;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 12px 20px;
+  background-color: #2563eb; /* Blue button */
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600; /* semi-bold */
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.submit-button:hover {
+  background-color: #1d4ed8; /* Darker blue on hover */
+}
+
